@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+    "settings": {
+        "nrf-connect.topdir": "/opt/nordic/ncs/v2.0.0",
+        "nrf-connect.toolchain.path": "/opt/nordic/ncs/toolchains/v2.0.0",
+        "nrf-connect.applications": [
+            "/Users/davidelvig/Desktop/DesktopSrc/DaveLED1"
+        ]
+    }
+}

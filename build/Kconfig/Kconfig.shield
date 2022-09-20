@@ -1,0 +1,2 @@
+osource "/Users/davidelvig/Desktop/DesktopSrc/DaveLED1/boards/shields/*/Kconfig.shield"
+osource "/opt/nordic/ncs/v2.0.0/nrf/boards/shields/*/Kconfig.shield"
