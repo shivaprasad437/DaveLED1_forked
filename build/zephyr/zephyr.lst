@@ -412,7 +412,7 @@ static inline int gpio_pin_configure_dt(const struct gpio_dt_spec *spec,
      476:	2063      	movs	r0, #99	; 0x63
      478:	2100      	movs	r1, #0
      47a:	f006 fd69 	bl	6f50 <z_impl_k_sleep>
-        k_sleep(K_MSEC(3)); // <== this delay is required at >= 2ms or greater to avoid aparent tow printk's every 2 seconds
+        k_sleep(K_MSEC(3)); // <== this delay is required at >= 2-3ms or greater to avoid aparent tow printk's every 2 seconds
         isOn = !isOn;
      47e:	4a10      	ldr	r2, [pc, #64]	; (4c0 <CONFIG_FLASH_SIZE+0xc0>)
      480:	7813      	ldrb	r3, [r2, #0]
