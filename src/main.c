@@ -10,7 +10,7 @@
 #include <drivers/gpio.h>
 
 #include <Test.h>
-#include <TestCPP.h>
+#include <TestCPP.hpp>
 
 #define LED_1_NODE DT_ALIAS(led1)
 void main(void)

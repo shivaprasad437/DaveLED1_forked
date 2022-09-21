@@ -9,6 +9,15 @@
         "nrf-connect.toolchain.path": "/opt/nordic/ncs/toolchains/v2.0.0",
         "nrf-connect.applications": [
             "/Users/davidelvig/Desktop/DesktopSrc/DaveLED1"
-        ]
+        ],
+        "files.associations": {
+            "main.c":       "cpp",
+            "stdio.h":      "c",
+            "zephyr.h":     "c",
+            "Test.c":       "c",
+            "TestCPP.cpp":  "cpp",
+            // "TestCPP.hpp": "cpp",
+            "time.h":       "c"
+        }
     }
 }

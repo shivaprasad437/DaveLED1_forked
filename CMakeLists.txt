@@ -9,6 +9,7 @@ target_sources(app PRIVATE
     src/main.c
     src/Test.c
     src/TestCPP.cpp
+    src/TestCPP.hpp
 )
 zephyr_include_directories(
     src
