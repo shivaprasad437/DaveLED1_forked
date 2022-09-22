@@ -36,3 +36,6 @@ build/zephyr/zephyr_pre0.elf
 build/zephyr/zephyr_pre0.map
 build/zephyr/zephyr_pre1.elf
 build/zephyr/zephyr_pre1.map
+build/.ninja_deps
+build/.ninja_log
+build/build.ninja

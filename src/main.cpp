@@ -10,9 +10,11 @@
 #include <drivers/gpio.h>
 
 #include <Test.h>
-#include <TestCPP.hpp>
+#include <TestCPP.h>
 
 #define LED_1_NODE DT_ALIAS(led1)
+
+extern "C" {
 void main(void)
 {
     static bool isOn = false;
@@ -28,4 +30,5 @@ void main(void)
         isOn = !isOn;
         gpio_pin_set_dt(&led_1, isOn);
     }
+}
 }
