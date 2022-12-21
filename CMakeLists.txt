@@ -13,3 +13,4 @@ target_sources(app PRIVATE
 zephyr_include_directories(
     src
 )
+#just added some comment to see how commit works in git
